@@ -1,3 +1,3 @@
 ### 官网地址
 
-https://fsjz.github.io/fsjz
+https://fov42550564.github.io/fsjz
