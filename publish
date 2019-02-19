@@ -1,0 +1,35 @@
+#!/bin/bash
+
+function check() {
+    info=`git st|grep "nothing to commit"`
+    if [ "$info" = "" ];then
+        echo "请先提交修改后在发布"
+        exit
+    fi
+}
+
+function publish() {
+    pushd website
+    npm run build
+    if [ $? -ne 0 ]; then
+        exit
+    fi
+    mv build ../../.__build
+    mv node_modules ../../.__node_modules
+    popd
+    git co gh-pages
+    v=`git lg -1|sed 's/.*发布//'|sed 's/版本.*//'|sed 's/\.//g'`
+    let v=v+1
+    v="发布${v:0:1}.${v:1:1}.${v:2:1}版本"
+    rm -fr *
+    mv ../.__build/fsjz/* .
+    git add .
+    git ci -m "$v"
+    git pupage
+    git co master
+    mv ../.__node_modules website/node_modules
+    rm -fr ../.__build
+}
+
+check
+publish
