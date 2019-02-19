@@ -1,4 +1,4 @@
-::: resume 基本信息!(img/head/yun/fang_yuan_cheng.jpg)
+::: resume 基本信息!(img/head/yong/fang_yuan_cheng.jpg)
 
 * 方远程，方运江之子，排行老二，出生于2018年12月29日。
 * 父亲：方运江，母亲：裴克娟
