@@ -16,7 +16,7 @@ const config = {
     },
     documentPath: 'docs', //默认为docs
     markdownPlugins,
-    styles: ['css/resume.css'],
+    styles: ['css/common.css'],
     scripts: [],
     footer: 'lib/Footer.js', //设置footer
     sideNavCollapsible: true, // 侧边栏是否可以折叠

@@ -38,3 +38,9 @@ hr { border:0.5px dotted gray !important; }
         align-items: center;
     }
 }
+.vm {
+    vertical-align: middle;
+}
+.h {
+    display: none;
+}
