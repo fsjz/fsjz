@@ -44,3 +44,6 @@ hr { border:0.5px dotted gray !important; }
 .h {
     display: none;
 }
+#memberTable {
+    width: 600px;
+}
