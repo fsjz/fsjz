@@ -31,9 +31,9 @@ const config = {
                 {
                     name: '祭祖规则',
                     pages: [
-                        { name: '人员安排', path: 'sacrifice/rules/duty.md' },
-                        { name: '斗钱规则', path: 'sacrifice/rules/raise.md' },
                         { name: '人员名单', path: 'sacrifice/rules/members.md' },
+                        { name: '斗钱规则', path: 'sacrifice/rules/raise.md' },
+                        { name: '人员安排', path: 'sacrifice/rules/duty.md' },
                     ]
                 },
                 {
