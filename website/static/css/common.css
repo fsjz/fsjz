@@ -38,6 +38,10 @@ hr { border:0.5px dotted gray !important; }
         align-items: center;
     }
 }
+.warn {
+    font-size: 14px;
+    color: red;
+}
 .vm {
     vertical-align: middle;
 }
@@ -45,5 +49,8 @@ hr { border:0.5px dotted gray !important; }
     display: none;
 }
 #memberTable {
-    width: 600px;
+    width: 800px;
+}
+#feeTable {
+    width: 500px;
 }

@@ -39,7 +39,7 @@ const config = {
                 {
                     name: '斗钱记录',
                     pages: [
-                        { name: '2019', path: 'sacrifice/logs/2019.md'}
+                        { name: '2019', path: 'sacrifice/records/2019.md'}
                     ]
                 },
             ]
