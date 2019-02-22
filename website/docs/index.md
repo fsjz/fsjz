@@ -16,33 +16,20 @@
         text-align: center;
         font-size: 3em;
     }
-    .l1 {
-        color: #00a67c;
-        animation: light1 1.5s ease infinite alternate;
-    }
-    @keyframes light1 {
-        from {
-            text-shadow: 0 0 10px #fff,
-            0 0 20px #fff,
-            0 0 30px #fff,
-            0 0 40px #00a67c,
-            0 0 70px #00a67c,
-            0 0 80px #00a67c,
-            0 0 100px #00a67c,
-            0 0 150px #00a67c;
-        }
-        to {
-            text-shadow: 0 0 10px #fff,
-            0 0 20px #fff,
-            0 0 30px #fff,
-            0 0 40px #00a67c,
-            0 0 70px #00a67c,
-            0 0 80px #00a67c,
-            0 0 100px #00a67c,
-            0 0 150px #00a67c;
-        }
-    }
 </style>
+<script>
+    function addStyle(style, i, c1, c2) {
+        style.appendChild(document.createTextNode('.l'+i+' { color:'+c2+';animation: light'+i+' 1.5s ease infinite alternate;}'));
+        style.appendChild(document.createTextNode('@keyframes light'+i+' { from { text-shadow: 0 0 10px '+c1+', 0 0 20px '+c1+', 0 0 30px '+c1+', 0 0 40px '+c2+', 0 0 70px '+c2+', 0 0 80px '+c2+', 0 0 100px '+c2+', 0 0 150px '+c2+'; } to { text-shadow: 0 0 10px '+c1+', 0 0 20px '+c1+', 0 0 30px '+c1+', 0 0 40px '+c2+', 0 0 70px '+c2+', 0 0 80px '+c2+', 0 0 100px '+c2+', 0 0 150px '+c2+'; }}'));
+    }
+
+    var style = document.createElement('style');
+    var colors = ['#B22222', '#00a67c', '#FF0000', '#458B00', '#FF8C00'];
+    for (var i=0; i<5; i++) {
+        addStyle(style, i+1, '#fff', colors[i]);
+    }
+    document.getElementsByTagName("head")[0].appendChild(style);
+</script>
 <div id="container">
     <p class="l1">齐易家增福</p>
     <p class="l2">续谱定吉昌</p>
