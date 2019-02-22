@@ -39,7 +39,7 @@ const config = {
                 {
                     name: '斗钱记录',
                     pages: [
-                        { name: '2019', path: 'sacrifice/records/2019.md'}
+                        { name: '2019年', path: 'sacrifice/records/2019.md'}
                     ]
                 },
             ]
@@ -47,6 +47,12 @@ const config = {
         {
             name: '家谱',
             groups: [
+                {
+                    name: '汇总',
+                    pages: [
+                        { name: '宗亲表', path: 'family/index.md' },
+                    ]
+                },
                 {
                     name: '定字辈',
                     pages: [

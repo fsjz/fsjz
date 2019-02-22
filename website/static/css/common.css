@@ -1,9 +1,9 @@
 dt { background: url(./resumeMenubg.jpg) no-repeat 5px 0; }
-ul { -webkit-padding-start: 0px; padding: 0px !important; }
+ul { -webkit-padding-start: 0px; padding: 0px; }
 li { list-style:none; }
 h5 { height: 26px; line-height: 26px; color: #315AAA; text-indent: 20px; font-size: 20px; }
 dd { padding-left: 20px; margin: 10px; line-height: 1.8em; }
-hr { border:0.5px dotted gray !important; }
+hr { border:0.5px dotted gray; }
 @media only screen and (min-width: 536px) {
     .resumeHeadContianer {
         display: flex;
@@ -45,8 +45,27 @@ hr { border:0.5px dotted gray !important; }
 .vm {
     vertical-align: middle;
 }
+.m {
+    color: green;
+    font-size: 5px;
+}
 .h {
     display: none;
+}
+.lv0 {
+    color: #D1D1D1;
+}
+.lv1 {
+    color: #458B00;
+}
+.lv2 {
+    color: #B22222;
+}
+.lv3 {
+    color: #FF0000;
+}
+.lv4 {
+    color: #FF8C00;
 }
 #memberTable {
     width: 800px;
