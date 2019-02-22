@@ -67,8 +67,11 @@ hr { border:0.5px dotted gray; }
 .lv4 {
     color: #FF8C00;
 }
+#familyTable {
+    width: 600px;
+}
 #memberTable {
-    width: 800px;
+    width: 650px;
 }
 #feeTable {
     width: 500px;

@@ -34,7 +34,7 @@
 |{.h}|方浩宇|2014年七月初五*07-31*{.m}||
 |{.h}|方梓藤|2016年四月十九*05-25*{.m}||
 |{.h}|方辰逸|2017年三月廿七*04-23*{.m}||
-|{.h}|方远程|2018年冬月廿三*12-29*{.m}|{#memberTable}|
+|{.h}|方远程|2018年冬月廿三*12-29*{.m}|{#familyTable}|
 
 <script>
 function getLunar(date){
@@ -93,7 +93,7 @@ function getAge(date, lunar) {
     return age;
 }
 function updateAge(day) {
-    $('#memberTable tr').each(function(i){
+    $('#familyTable tr').each(function(i){
         var tds = $(this).children('td');
         if (i != 0 && !$(tds[3]).text()) {
             var text = $(tds[2]).text();
