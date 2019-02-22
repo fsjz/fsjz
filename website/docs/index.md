@@ -9,12 +9,14 @@
     #container {
         width: 100%;
         text-align: center;
-        padding-top: 1em;
     }
     #container p {
         font-family: 'Audiowide';
         text-align: center;
         font-size: 3em;
+    }
+    .mainContainer {
+        padding: 0;
     }
 </style>
 <script>
