@@ -26,20 +26,12 @@ const config = {
     },
     menus: [
         {
-            name: '祭祖',
+            name: '祠堂',
             groups: [
                 {
-                    name: '祭祖规则',
+                    name: '家族根源',
                     pages: [
-                        { name: '人员名单', path: 'sacrifice/rules/members.md' },
-                        { name: '斗钱规则', path: 'sacrifice/rules/raise.md' },
-                        { name: '人员安排', path: 'sacrifice/rules/duty.md' },
-                    ]
-                },
-                {
-                    name: '斗钱记录',
-                    pages: [
-                        { name: '2019年', path: 'sacrifice/records/2019.md'}
+                        { name: '家族根源', path: 'ancestral/index.md' },
                     ]
                 },
             ]
@@ -48,7 +40,7 @@ const config = {
             name: '家谱',
             groups: [
                 {
-                    name: '汇总',
+                    name: '启言',
                     pages: [
                         { name: '宗亲表', path: 'family/index.md' },
                     ]
@@ -127,6 +119,25 @@ const config = {
                         { name: '方梓腾', path: 'family/yong/fang_zi_teng.md'},
                         { name: '方辰逸', path: 'family/yong/fang_chen_yi.md'},
                         { name: '方远程', path: 'family/yong/fang_yuan_cheng.md'},
+                    ]
+                },
+            ]
+        },
+        {
+            name: '祭祖',
+            groups: [
+                {
+                    name: '祭祖规则',
+                    pages: [
+                        { name: '人员名单', path: 'sacrifice/rules/members.md' },
+                        { name: '斗钱规则', path: 'sacrifice/rules/raise.md' },
+                        { name: '人员安排', path: 'sacrifice/rules/duty.md' },
+                    ]
+                },
+                {
+                    name: '斗钱记录',
+                    pages: [
+                        { name: '2019年', path: 'sacrifice/records/2019.md'}
                     ]
                 },
             ]
