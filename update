@@ -1,0 +1,26 @@
+#!/bin/bash
+
+function check() {
+    info=`git st|grep "nothing to commit"`
+    if [ "$info" = "" ];then
+        echo "请先处理修改后再更新"
+        exit
+    fi
+}
+
+function update() {
+    git pl
+    mv website/node_modules ../.__node_modules
+    info=`git br|grep "gh-pages"`
+    if [ "$info" = "" ];then
+        git copage
+    else
+        git co gh-pages
+        git plpage
+    fi
+    git co master
+    mv ../.__node_modules website/node_modules
+}
+
+check
+update
