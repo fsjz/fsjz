@@ -2,6 +2,7 @@ const markdownPlugins = require('./lib/markdownPlugins');
 
 const config = {
     projectName: 'fsjz',
+    domain: 'fang.smtwl.com.cn', // gh-pages 对应的网址，可以不设置，如果需要重定向域名
     title: '方氏家族',
     favicon: 'img/favicon.ico',
     logo: 'img/logo.png',
