@@ -17,14 +17,29 @@ function publish() {
     mv build ../../.__build
     mv node_modules ../../.__node_modules
     popd
-    git co gh-pages
+    # 发布
+    info=`git br|grep "gh-pages"`
+    if [ "$info" = "" ];then
+        git copage
+    else
+        git co gh-pages
+        git plpage
+    fi
+    git lg
     v=`git lg -1|sed 's/.*发布//'|sed 's/版本.*//'|sed 's/\.//g'`
+    t=`echo $v|grep '^\d\{3\}$'`
+    if [ "$t" = "" ];then
+        v="99"
+        git co -b gh-pages
+    fi
     let v=v+1
     v="发布${v:0:1}.${v:1:1}.${v:2:1}版本"
+    echo ""
+    echo $v
     rm -fr *
     mv ../.__build/fsjz/* .
     git add .
-    git ci -m "$v"
+    git ci "$v"
     git pupage
     git co master
     mv ../.__node_modules website/node_modules
