@@ -27,6 +27,17 @@ const config = {
     },
     menus: [
         {
+            name: '家族新闻',
+            groups: [
+                {
+                    name: '家族新闻',
+                    pages: [
+                        { name: '家族新闻', path: 'news/index.md' },
+                    ]
+                },
+            ]
+        },
+        {
             name: '祠堂',
             groups: [
                 {
@@ -35,15 +46,21 @@ const config = {
                         { name: '家族根源', path: 'ancestral/index.md' },
                     ]
                 },
+                {
+                    name: '宗亲生日表',
+                    pages: [
+                        { name: '宗亲生日表', path: 'ancestral/birthday.md' },
+                    ]
+                },
             ]
         },
         {
             name: '家谱',
             groups: [
                 {
-                    name: '启言',
+                    name: '家谱图',
                     pages: [
-                        { name: '宗亲表', path: 'family/index.md' },
+                        { name: '家谱图', path: 'family/index.js', supports: ['untree'] },
                     ]
                 },
                 {
