@@ -60,15 +60,6 @@
                             text: '方运梅',
                             color: '#FFD700',
                         }, {
-                            text: '方运先',
-                            color: '#FFD700',
-                        }, {
-                            text: '方运莉',
-                            color: '#FFD700',
-                        }, {
-                            text: '方运敏',
-                            color: '#FFD700',
-                        }, {
                             text: '方运红',
                             children: [{
                                 text: '方鹏',
@@ -79,6 +70,15 @@
                                 text: '方黔粤',
                                 color: '#FFD700',
                             }],
+                        }, {
+                            text: '方运先',
+                            color: '#FFD700',
+                        }, {
+                            text: '方运美',
+                            color: '#FFD700',
+                        }, {
+                            text: '方运敏',
+                            color: '#FFD700',
                         }],
                     }, {
                         text: '方太国',
@@ -148,7 +148,7 @@
                         text: '方太蓉',
                         color: '#FFD700',
                     }, {
-                        text: '细嬢',
+                        text: '方太学',
                         color: '#FFD700',
                     }, {
                         text: '方太福',
