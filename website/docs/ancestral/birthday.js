@@ -66,12 +66,12 @@
                             wife: {
                                 name: '熊国碧',
                                 girl: true,
-                                birthday: '',
+                                birthday: '1974年十月十八',
                             },
                             children: [{
                                 name: '方婷',
                                 girl: true,
-                                birthday: '',
+                                birthday: '1997年腊月初三',
                                 husband: {
                                     name: '胡凯',
                                     birthday: '',
@@ -82,11 +82,11 @@
                                 }],
                             }, {
                                 name: '方丹',
-                                birthday: '',
+                                birthday: '1998年腊月廿七',
                                 girl: true,
                             }, {
                                 name: '方华',
-                                birthday: '',
+                                birthday: '2000年九月廿七',
                             }],
                         }, {
                             name: '方运艳',
