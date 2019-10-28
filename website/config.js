@@ -38,7 +38,7 @@ const config = {
             ]
         },
         {
-            name: '祠堂',
+            name: '家族',
             groups: [
                 {
                     name: '家族根源',
@@ -50,6 +50,12 @@ const config = {
                     name: '宗亲生日表',
                     pages: [
                         { name: '宗亲生日表', path: 'ancestral/birthday.md' },
+                    ]
+                },
+                {
+                    name: '生日表',
+                    pages: [
+                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'] },
                     ]
                 },
             ]
@@ -92,7 +98,7 @@ const config = {
                 {
                     name: '太字辈',
                     pages: [
-                        { name: '方太忠', path: 'family/tai/fang_tai_zhong.md' },
+                        { name: '方太中', path: 'family/tai/fang_tai_zhong.md' },
                         { name: '方太成', path: 'family/tai/fang_tai_cheng.md' },
                         { name: '方太国', path: 'family/tai/fang_tai_guo.md' },
                         { name: '方太加', path: 'family/tai/fang_tai_jia.md' },

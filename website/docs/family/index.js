@@ -25,7 +25,7 @@
                     text: '方昌明',
                     color: '#BEBEBE',
                     children: [{
-                        text: '方太忠',
+                        text: '方太中',
                         children: [{
                             text: '方运琼',
                             color: '#FFD700',
@@ -130,19 +130,16 @@
                     }, {
                         text: '方太强',
                         children: [{
-                            text: '方太加',
+                            text: '方运波',
                             children: [{
-                                text: '方运波',
-                                children: [{
-                                    text: '方妙希',
-                                    color: '#FFD700',
-                                }, {
-                                    text: '老二',
-                                }],
-                            }, {
-                                text: '方运菊',
+                                text: '方妙希',
                                 color: '#FFD700',
+                            }, {
+                                text: '老二',
                             }],
+                        }, {
+                            text: '方运菊',
+                            color: '#FFD700',
                         }],
                     }, {
                         text: '方太蓉',
