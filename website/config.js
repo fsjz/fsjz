@@ -55,7 +55,13 @@ const config = {
                 {
                     name: '生日表',
                     pages: [
-                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'] },
+                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showName' }, html: `
+                        <script>
+                        function showName(r) {
+                            return r.name+(r.wife?r.wife.name:'')+(r.hasband?r.hasband.name:'');
+                        }
+                        </script>
+                        `},
                     ]
                 },
             ]
@@ -66,7 +72,7 @@ const config = {
                 {
                     name: '家谱图',
                     pages: [
-                        { name: '家谱图', path: 'family/index.js', supports: ['untree'] },
+                        { name: '家谱图', path: 'family/index.js', supports: ['untree'], options: { text: o=>o.name } },
                     ]
                 },
                 {

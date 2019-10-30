@@ -1,199 +1,199 @@
 [{
-    text: '方拔齐',
+    name: '方拔齐',
     color: '#BEBEBE',
     children: [{
-        text: '七代',
+        name: '七代',
         color: '#BEBEBE',
         children: [{
-            text: '长房四川留守',
+            name: '长房四川留守',
             color: '#BEBEBE',
-            children: [{text: '待补充...'}],
+            children: [{name: '待补充...'}],
         }, {
-            text: '方定基',
+            name: '方定基',
             color: '#BEBEBE',
             children: [],
         }, {
-            text: '方定乾',
+            name: '方定乾',
             color: '#BEBEBE',
-            children: [{text: '待补充...'}],
+            children: [{name: '待补充...'}],
         }, {
-            text: '方定古',
+            name: '方定古',
             color: '#BEBEBE',
             children: [{
-                text: '方吉才',
+                name: '方吉才',
                 children: [{
-                    text: '方昌明',
+                    name: '方昌明',
                     color: '#BEBEBE',
                     children: [{
-                        text: '方太中',
+                        name: '方太中',
                         children: [{
-                            text: '方运琼',
+                            name: '方运琼',
                             color: '#FFD700',
                         }, {
-                            text: '方运辉',
+                            name: '方运辉',
                             children: [{
-                                text: '方婷',
+                                name: '方婷',
                                 color: '#FFD700',
                             }, {
-                                text: '方丹',
+                                name: '方丹',
                                 color: '#FFD700',
                             }, {
-                                text: '方华',
+                                name: '方华',
                             }],
                         }, {
-                            text: '方运艳',
+                            name: '方运艳',
                             color: '#FFD700',
                         }, {
-                            text: '方运素',
+                            name: '方运素',
                             color: '#FFD700',
                         }, {
-                            text: '方运江',
+                            name: '方运江',
                             children: [{
-                                text: '方远航',
+                                name: '方远航',
                             }, {
-                                text: '方远程',
+                                name: '方远程',
                             }],
                         }],
                     }, {
-                        text: '方太成',
+                        name: '方太成',
                         children: [{
-                            text: '方运梅',
+                            name: '方运梅',
                             color: '#FFD700',
                         }, {
-                            text: '方运红',
+                            name: '方运红',
                             children: [{
-                                text: '方鹏',
+                                name: '方鹏',
                             }, {
-                                text: '方雪',
+                                name: '方雪',
                                 color: '#FFD700',
                             }, {
-                                text: '方黔粤',
+                                name: '方黔粤',
                                 color: '#FFD700',
                             }],
                         }, {
-                            text: '方运先',
+                            name: '方运先',
                             color: '#FFD700',
                         }, {
-                            text: '方运美',
+                            name: '方运美',
                             color: '#FFD700',
                         }, {
-                            text: '方运敏',
+                            name: '方运敏',
                             color: '#FFD700',
                         }],
                     }, {
-                        text: '方太国',
+                        name: '方太国',
                         color: '#BEBEBE',
                         children: [{
-                            text: '方运琴',
+                            name: '方运琴',
                             color: '#FFD700',
                         }, {
-                            text: '方运慧',
+                            name: '方运慧',
                             color: '#FFD700',
                         }, {
-                            text: '方运飞',
+                            name: '方运飞',
                             children: [{
-                                text: '方心羽',
+                                name: '方心羽',
                                 color: '#FFD700',
                             }],
                         }, {
-                            text: '方运勇',
+                            name: '方运勇',
                             children: [{
-                                text: '方浩轩',
+                                name: '方浩轩',
                             }, {
-                                text: '方浩宇',
+                                name: '方浩宇',
                             }],
                         }],
                     }, {
-                        text: '方太加',
+                        name: '方太加',
                         children: [{
-                            text: '方运丽',
+                            name: '方运丽',
                             color: '#FFD700',
                         }, {
-                            text: '方运进',
+                            name: '方运进',
                             children: [{
-                                text: '方紫涵',
+                                name: '方紫涵',
                                 color: '#FFD700',
                             }, {
-                                text: '方辰逸',
+                                name: '方辰逸',
                             }],
                         }, {
-                            text: '方运德',
+                            name: '方运德',
                             children: [{
-                                text: '方梓鸥',
+                                name: '方梓鸥',
                             }, {
-                                text: '方梓腾',
+                                name: '方梓腾',
                             }],
                         }],
                     }, {
-                        text: '方太先',
+                        name: '方太先',
                         color: '#FFD700',
                     }, {
-                        text: '方太强',
+                        name: '方太强',
                         children: [{
-                            text: '方运波',
+                            name: '方运波',
                             children: [{
-                                text: '方妙希',
+                                name: '方妙希',
                                 color: '#FFD700',
                             }, {
-                                text: '老二',
+                                name: '老二',
                             }],
                         }, {
-                            text: '方运菊',
+                            name: '方运菊',
                             color: '#FFD700',
                         }],
                     }, {
-                        text: '方太蓉',
+                        name: '方太蓉',
                         color: '#FFD700',
                     }, {
-                        text: '方太学',
+                        name: '方太学',
                         color: '#FFD700',
                     }, {
-                        text: '方太福',
+                        name: '方太福',
                         children: [{
-                            text: '方运培',
+                            name: '方运培',
                         }, {
-                            text: '方运松',
+                            name: '方运松',
                         }],
                     }],
                 }, {
-                    text: '方昌英',
+                    name: '方昌英',
                     color: '#EEDFCC',
                 }, {
-                    text: '方昌伦',
+                    name: '方昌伦',
                     color: '#BEBEBE',
                     children: [{
-                        text: '方太军',
+                        name: '方太军',
                         children: [{
-                            text: '方运模',
+                            name: '方运模',
                             children: [{
-                                text: '方娟娟',
+                                name: '方娟娟',
                                 color: '#FFD700',
                             }, {
-                                text: '方永圣',
+                                name: '方永圣',
                             }],
                         }, {
-                            text: '方燕',
+                            name: '方燕',
                             color: '#FFD700',
                         }],
                     }, {
-                        text: '方太华',
+                        name: '方太华',
                         children: [{
-                            text: '方运杰',
+                            name: '方运杰',
                         }, {
-                            text: '方林',
+                            name: '方林',
                             children: [{
-                                text: '老大',
+                                name: '老大',
                                 color: '#FFD700',
                             }],
                         }],
                     }, {
-                        text: '方太文',
+                        name: '方太文',
                         children: [{
-                            text: '方运忠',
+                            name: '方运忠',
                         }, {
-                            text: '方运久',
+                            name: '方运久',
                         }, {
-                            text: '方运刚',
+                            name: '方运刚',
                         }],
                     }],
                 }],
