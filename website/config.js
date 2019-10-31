@@ -18,7 +18,7 @@ const config = {
     documentPath: 'docs', //默认为docs
     markdownPlugins,
     styles: ['css/common.css'],
-    scripts: [],
+    scripts: ['js/common.js'],
     footer: 'lib/Footer.js', //设置footer
     sideNavCollapsible: true, // 侧边栏是否可以折叠
     homePage: {
@@ -55,13 +55,7 @@ const config = {
                 {
                     name: '生日表',
                     pages: [
-                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showName' }, html: `
-                        <script>
-                        function showName(r) {
-                            return r.name+(r.wife?r.wife.name:'')+(r.hasband?r.hasband.name:'');
-                        }
-                        </script>
-                        `},
+                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName' }},
                     ]
                 },
             ]
@@ -72,7 +66,7 @@ const config = {
                 {
                     name: '家谱图',
                     pages: [
-                        { name: '家谱图', path: 'family/index.js', supports: ['untree'], options: { text: o=>o.name } },
+                        { name: '家谱图', path: 'family/index.js', supports: ['untree'], options: { text: 'name' } },
                     ]
                 },
                 {
