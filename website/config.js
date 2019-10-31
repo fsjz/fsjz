@@ -41,21 +41,10 @@ const config = {
             name: '家族',
             groups: [
                 {
-                    name: '家族根源',
+                    name: '方氏家族',
                     pages: [
                         { name: '家族根源', path: 'ancestral/index.md' },
-                    ]
-                },
-                {
-                    name: '宗亲生日表',
-                    pages: [
-                        { name: '宗亲生日表', path: 'ancestral/birthday.md' },
-                    ]
-                },
-                {
-                    name: '生日表',
-                    pages: [
-                        { name: '生日表', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName' }},
+                        { name: '亲缘图谱', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName' }},
                     ]
                 },
             ]
@@ -66,7 +55,7 @@ const config = {
                 {
                     name: '家谱图',
                     pages: [
-                        { name: '家谱图', path: 'family/index.js', supports: ['untree'], options: { text: 'name' } },
+                        { name: '家谱图', path: 'family/index.js', supports: ['untree'], options: { text: 'showFamilyMemberName' } },
                     ]
                 },
                 {

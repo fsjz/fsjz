@@ -8,8 +8,12 @@ function getBirthday(b) {
 }
 function getMemberClass(pre, r) {
     var list = [pre];
-    r.pass && (list.push('pass'));
-    r.girl && (list.push('girl')) || (list.push('boy'));
+    if (r.pass && r.girl) {
+        list.push('passgirl');
+    } else {
+        r.pass && (list.push('pass'));
+        r.girl && (list.push('girl')) || (list.push('boy'));
+    }
     return ' class="'+list.join(' ')+'"';
 }
 function showMemberName(r) {
@@ -18,4 +22,7 @@ function showMemberName(r) {
     ('<div'+getMemberClass('me', r)+'>' + r.name + getBirthday(r.birthday) +  '</div>') +
     (r.wife ? ('<div'+getMemberClass('wife', r.wife)+'>' + r.wife.name + getBirthday(r.wife.birthday) +  '</div>') : '') +
     '</div>';
+}
+function showFamilyMemberName(r) {
+    return '<span '+getMemberClass('', r)+'>'+r.name+'</span>';
 }

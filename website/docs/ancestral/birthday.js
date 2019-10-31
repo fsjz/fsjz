@@ -66,8 +66,8 @@
                             birthday: '1976八月初一',
                             wife: {
                                 name: '熊国碧',
-                                girl: true,
                                 birthday: '1974十月十八',
+                                girl: true,
                             },
                             children: [{
                                 name: '方婷',
@@ -271,7 +271,7 @@
                                 girl: true,
                             },
                             children: [{
-                                name: '方心羽',
+                                name: '方欣羽',
                                 birthday: '2010年06月06日',
                                 girl: true,
                             }],
@@ -281,6 +281,7 @@
                             wife: {
                                 name: '聂易红',
                                 birthday: '1988十月初三',
+                                girl: true,
                             },
                             children: [{
                                 name: '方浩轩',
@@ -296,6 +297,7 @@
                         wife: {
                             name: '甘书怀',
                             birthday: '1957冬月廿七',
+                            girl: true,
                         },
                         children: [{
                             name: '方运丽',
@@ -327,6 +329,7 @@
                             wife: {
                                 name: '陈妍',
                                 birthday: '1987八月初九',
+                                girl: true,
                             },
                             children: [{
                                 name: '方梓鸥',
@@ -359,10 +362,16 @@
                         wife: {
                             name: '李正平',
                             birthday: '1963七月十五',
+                            girl: true,
                         },
                         children: [{
                             name: '方运波',
                             birthday: '1987八月十七',
+                            wife: {
+                                name: '蒲丽',
+                                birthday: '1991腊月初七',
+                                girl: true
+                            },
                             children: [{
                                 name: '方妙兮',
                                 birthday: '2014年04月09日',
@@ -431,6 +440,7 @@
                         wife: {
                             name: '蔡先平',
                             birthday: '1975正月初十',
+                            girl: true,
                         },
                         children: [{
                             name: '方运培',
@@ -455,6 +465,7 @@
                         wife: {
                             name: '方太军妻子',
                             birthday: '',
+                            girl: true,
                         },
                         children: [{
                             name: '方运模',
@@ -477,6 +488,7 @@
                         wife: {
                             name: '方太华妻子',
                             birthday: '',
+                            girl: true
                         },
                         birthday: '1961九月廿三',
                         children: [{
@@ -488,6 +500,7 @@
                             wife: {
                                 name: '方林妻子',
                                 birthday: '',
+                                girl: true,
                             },
                             children: [{
                                 name: '方林长女',
@@ -501,6 +514,7 @@
                         wife: {
                             name: '方太文妻子',
                             birthday: '',
+                            girl: true,
                         },
                         children: [{
                             name: '方运忠',
@@ -511,6 +525,7 @@
                             wife: {
                                 name: '方运久妻子',
                                 birthday: '',
+                                girl: true,
                             },
                         }, {
                             name: '方运刚',

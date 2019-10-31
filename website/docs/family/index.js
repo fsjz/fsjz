@@ -1,51 +1,51 @@
 [{
     name: '方拔齐',
-    color: '#BEBEBE',
+    pass: true,
     children: [{
         name: '七代',
-        color: '#BEBEBE',
+        pass: true,
         children: [{
             name: '长房四川留守',
-            color: '#BEBEBE',
+            pass: true,
             children: [{name: '待补充...'}],
         }, {
             name: '方定基',
-            color: '#BEBEBE',
+            pass: true,
             children: [],
         }, {
             name: '方定乾',
-            color: '#BEBEBE',
+            pass: true,
             children: [{name: '待补充...'}],
         }, {
             name: '方定古',
-            color: '#BEBEBE',
+            pass: true,
             children: [{
                 name: '方吉才',
                 children: [{
                     name: '方昌明',
-                    color: '#BEBEBE',
+                    pass: true,
                     children: [{
                         name: '方太中',
                         children: [{
                             name: '方运琼',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运辉',
                             children: [{
                                 name: '方婷',
-                                color: '#FFD700',
+                                girl: true,
                             }, {
                                 name: '方丹',
-                                color: '#FFD700',
+                                girl: true,
                             }, {
                                 name: '方华',
                             }],
                         }, {
                             name: '方运艳',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运素',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运江',
                             children: [{
@@ -58,42 +58,42 @@
                         name: '方太成',
                         children: [{
                             name: '方运梅',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运红',
                             children: [{
                                 name: '方鹏',
                             }, {
                                 name: '方雪',
-                                color: '#FFD700',
+                                girl: true,
                             }, {
                                 name: '方黔粤',
-                                color: '#FFD700',
+                                girl: true,
                             }],
                         }, {
                             name: '方运先',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运美',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运敏',
-                            color: '#FFD700',
+                            girl: true,
                         }],
                     }, {
                         name: '方太国',
-                        color: '#BEBEBE',
+                        pass: true,
                         children: [{
                             name: '方运琴',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运慧',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运飞',
                             children: [{
-                                name: '方心羽',
-                                color: '#FFD700',
+                                name: '方欣羽',
+                                girl: true,
                             }],
                         }, {
                             name: '方运勇',
@@ -107,12 +107,12 @@
                         name: '方太加',
                         children: [{
                             name: '方运丽',
-                            color: '#FFD700',
+                            girl: true,
                         }, {
                             name: '方运进',
                             children: [{
                                 name: '方紫涵',
-                                color: '#FFD700',
+                                girl: true,
                             }, {
                                 name: '方辰逸',
                             }],
@@ -126,27 +126,27 @@
                         }],
                     }, {
                         name: '方太先',
-                        color: '#FFD700',
+                        girl: true,
                     }, {
                         name: '方太强',
                         children: [{
                             name: '方运波',
                             children: [{
-                                name: '方妙希',
-                                color: '#FFD700',
+                                name: '方妙兮',
+                                girl: true,
                             }, {
-                                name: '老二',
+                                name: '方艺玲',
                             }],
                         }, {
                             name: '方运菊',
-                            color: '#FFD700',
+                            girl: true,
                         }],
                     }, {
                         name: '方太蓉',
-                        color: '#FFD700',
+                        girl: true,
                     }, {
                         name: '方太学',
-                        color: '#FFD700',
+                        girl: true,
                     }, {
                         name: '方太福',
                         children: [{
@@ -157,23 +157,24 @@
                     }],
                 }, {
                     name: '方昌英',
-                    color: '#EEDFCC',
+                    girl: true,
+                    pass: true,
                 }, {
                     name: '方昌伦',
-                    color: '#BEBEBE',
+                    pass: true,
                     children: [{
                         name: '方太军',
                         children: [{
                             name: '方运模',
                             children: [{
                                 name: '方娟娟',
-                                color: '#FFD700',
+                                girl: true,
                             }, {
                                 name: '方永圣',
                             }],
                         }, {
                             name: '方燕',
-                            color: '#FFD700',
+                            girl: true,
                         }],
                     }, {
                         name: '方太华',
@@ -183,7 +184,7 @@
                             name: '方林',
                             children: [{
                                 name: '老大',
-                                color: '#FFD700',
+                                girl: true,
                             }],
                         }],
                     }, {
