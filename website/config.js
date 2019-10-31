@@ -18,7 +18,7 @@ const config = {
     documentPath: 'docs', //默认为docs
     markdownPlugins,
     styles: ['css/common.css'],
-    scripts: ['js/common.js'],
+    scripts: ['js/lunar.js', 'js/common.js'],
     footer: 'lib/Footer.js', //设置footer
     sideNavCollapsible: true, // 侧边栏是否可以折叠
     homePage: {
@@ -44,7 +44,7 @@ const config = {
                     name: '方氏家族',
                     pages: [
                         { name: '家族根源', path: 'ancestral/index.md' },
-                        { name: '亲缘图谱', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName' }},
+                        { name: '亲缘图谱', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName' } },
                     ]
                 },
             ]

@@ -37,57 +37,18 @@
 |{.h}|方远程|2018年冬月廿三*12-29*{.m}|{#familyTable}|
 
 <script>
-function getLunar(date){
-    var MADD = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
-    var CALENDAR_DATA = [0xA4B,0x5164B,0x6A5,0x6D4,0x415B5,0x2B6,0x957,0x2092F,0x497,0x60C96,0xD4A,0xEA5,0x50DA9,0x5AD,0x2B6,0x3126E, 0x92E,0x7192D,0xC95,0xD4A,0x61B4A,0xB55,0x56A,0x4155B, 0x25D,0x92D,0x2192B,0xA95,0x71695,0x6CA,0xB55,0x50AB5,0x4DA,0xA5B,0x30A57,0x52B,0x8152A,0xE95,0x6AA,0x615AA,0xAB5,0x4B6,0x414AE,0xA57,0x526,0x31D26,0xD95,0x70B55,0x56A,0x96D,0x5095D,0x4AD,0xA4D,0x41A4D,0xD25,0x81AA5,0xB54,0xB6A,0x612DA,0x95B,0x49B,0x41497,0xA4B,0xA164B, 0x6A5,0x6D4,0x615B4,0xAB6,0x957,0x5092F,0x497,0x64B, 0x30D4A,0xEA5,0x80D65,0x5AC,0xAB6,0x5126D,0x92E,0xC96,0x41A95,0xD4A,0xDA5,0x20B55,0x56A,0x7155B,0x25D,0x92D,0x5192B,0xA95,0xB4A,0x416AA,0xAD5,0x90AB5,0x4BA,0xA5B, 0x60A57,0x52B,0xA93,0x40E95];
-
-    var y = date.getFullYear();
-    var m = date.getMonth();
-    var d = date.getDate();
-
-    var bit = function(m, n) { return (m>>n)&1 };
-
-    var i, j, k;
-    var isEnd=false;
-    var total=(y-1921) * 365+Math.floor((y-1921)/4)+MADD[m]+d-38;
-    if(d%4==0&&m>1) {
-        total++;
-    }
-    for(i=0;;i++){
-        k=(CALENDAR_DATA[i]<0xfff)?11:12;
-        for(j=k;j>=0;j--){
-            if(total<=29+bit(CALENDAR_DATA[i],j)){
-                isEnd=true; break;
-            }
-            total=total-29-bit(CALENDAR_DATA[i],j);
-        }
-        if(isEnd) break;
-    }
-    cy=1921+i;
-    cm=k-j+1;
-    cd=total;
-    if(k==12){
-        if(cm==Math.floor(CALENDAR_DATA[i]/0x10000)+1){
-            cm=1-cm;
-        }
-        if(cm>Math.floor(CALENDAR_DATA[i]/0x10000)+1){
-            cm--;
-        }
-    }
-    return [cy, cm, cd];
-}
 function getAge(date, lunar) {
     var DATE = ['', '一','二','三','四','五','六','七','八','九','十','十一','十二','十三','十四','十五','十六','十七','十八','十九','二十','廿一','廿二','廿三','廿四','廿五','廿六','廿七','廿八','廿九','三十'];
     var MONTH = ['', '一','二','三','四','五','六','七','八','九','十','冬','腊'];
     var indexOf = function(arr, v) {for(var i in arr) { if (arr[i]==v) return i }};
-    var l = getLunar(date);
+    var l = chineseLunar.solarToLunar(date);
     var tmp = lunar.split('年');
     var ly = tmp[0];
     tmp = tmp[1].split('月');
     var lm = indexOf(MONTH, tmp[0]);
     var ld = indexOf(DATE, tmp[1]);
-    var age = l[0] -ly;
-    if (l[1] < lm || (l[1] == lm && l[2] < ld)) {
+    var age = l.year -ly;
+    if (l.month < lm || (l.month == lm && l.day < ld)) {
         age--;
     }
     return age;

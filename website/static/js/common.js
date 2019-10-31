@@ -26,3 +26,18 @@ function showMemberName(r) {
 function showFamilyMemberName(r) {
     return '<span '+getMemberClass('', r)+'>'+r.name+'</span>';
 }
+var birthdayList = [];
+function showBirthday(data) {
+    if (data.birthday) {
+        if () {
+
+        }
+    }
+    var oposize = data.wife || data.husband;
+    if (oposize && oposize.birthday) {
+        chineseLunar.solarToLunar
+    }
+    if (data.children) {
+        data.children.forEach(o=>showBirthday(o));
+    }
+}
