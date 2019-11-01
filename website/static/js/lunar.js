@@ -589,7 +589,7 @@
 			case 10: return '初十';
 			case 20: return '二十';
 			case 30: return '三十';
-			default: return ("初十廿卅".split("")[Math.floor(lunar / 10)] +
+			default: return ("初十廿".split("")[Math.floor(lunar / 10)] +
 				"一二三四五六七八九十".split("")[(lunar - 1) % 10]) || lunar;
 		}
 	};

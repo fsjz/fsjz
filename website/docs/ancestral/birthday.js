@@ -267,7 +267,7 @@
                             birthday: '1979六月十四',
                             wife: {
                                 name: '杨家分',
-                                birthday: '1977十二月二十',
+                                birthday: '1977腊月二十',
                                 girl: true,
                             },
                             children: [{
