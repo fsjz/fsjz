@@ -26,7 +26,7 @@ function showMemberName(r) {
 function showFamilyMemberName(r) {
     return '<span '+getMemberClass('', r)+'>'+r.name+'</span>';
 }
-function getBirthdayList(children) {
+function getBirthdayList(children, count) {
     var chineseLunar = require('./lunar.js');
     var birthdayList = [];
     var monthList = '正,二,三,四,五,六,七,八,九,十,冬,腊'.split(',');
@@ -72,5 +72,28 @@ function getBirthdayList(children) {
     birthdayList.sort(function(a, b){
         return a.day - b.day;
     });
-    return birthdayList;
+    return birthdayList.slice(0, count);
 }
+function showNearBirthday(data) {
+    console.log("=======", data);
+    $('#modal-box-content').html(`<div class="modal-container">
+    <div class="modal-item">方运江：今天</div>
+    <div class="modal-item">方运勇：6天</div>
+    <div class="modal-item">方运江：今天</div>
+    <div class="modal-item">方运勇：6天</div>
+    <div class="modal-item">方运江：今天</div>
+    </div>`);
+    $('.modal-box-mask, .modal-box-modal').css('display', 'block');
+}
+
+
+$(document).ready(function(){
+    $('.modal-close').click(function(){
+        $('.modal-box-mask, .modal-box-modal').css('display', 'none');
+    })
+    window.onkeydown = function (event) {
+        if(event.keyCode == 27){ // 如果键盘按下 ESC 同样退出
+            $('.modal-box-mask, .modal-box-modal').css('display', 'none')
+        }
+    }
+})
