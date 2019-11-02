@@ -126,8 +126,10 @@ hr { border:0.5px dotted gray; }
    left: 0;
    background: rgba(0,0,0,.5);
    display: none;
+   z-index: 10000;
 }
 .modal-box-modal{
+    z-index: 10001;
    display: none;
    position: fixed;
    top: 50%;
@@ -153,6 +155,9 @@ hr { border:0.5px dotted gray; }
     padding-bottom: 20px;
     text-align: left;
     padding-left: 30px;
+}
+.modal-title {
+    margin-right: 50px;
 }
 .modal-item {
     margin-bottom: 20px;

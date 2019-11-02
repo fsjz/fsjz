@@ -344,15 +344,15 @@
                         girl: true,
                         birthday: '',
                         husband: {
-                            name: '石显地',
+                            name: '石芸现',
                             birthday: '',
                         },
                         children: [{
-                            name: '江慧姐',
+                            name: '王远敏',
                             girl: true,
                             birthday: '',
                         }, {
-                            name: '鸿雁',
+                            name: '王艳',
                             girl: true,
                             birthday: '',
                         }],
@@ -399,7 +399,7 @@
                         birthday: '',
                         girl: true,
                         husband: {
-                            name: '石芸现',
+                            name: '石显地',
                             birthday: '',
                         },
                         children: [{

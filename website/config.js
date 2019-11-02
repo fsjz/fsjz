@@ -44,10 +44,7 @@ const config = {
                     name: '方氏家族',
                     pages: [
                         { name: '家族根源', path: 'ancestral/index.md' },
-                        { name: '亲缘图谱', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName', click: 'showNearBirthday' }, html: `
-                        <div class="modal-box-mask"></div>
-                        <div class="modal-box-modal"><div id="modal-box-content"></div><span class="modal-close">X</span></div>
-                        ` },
+                        { name: '亲缘图谱', path: 'ancestral/birthday.js', supports: ['untree'], options: { text: 'showMemberName', click: 'showNearBirthday' }, html: `<div class="modal-box-mask"></div><div class="modal-box-modal"><span class="modal-title">最近要过生日的人</span><div id="modal-box-content"></div><span class="modal-close">X</span></div>` },
                     ]
                 },
             ]

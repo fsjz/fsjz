@@ -27,7 +27,6 @@ function showFamilyMemberName(r) {
     return '<span '+getMemberClass('', r)+'>'+r.name+'</span>';
 }
 function getBirthdayList(children, count) {
-    var chineseLunar = require('./lunar.js');
     var birthdayList = [];
     var monthList = '正,二,三,四,五,六,七,八,九,十,冬,腊'.split(',');
     var dayList = '初一,初二,初三,初四,初五,初六,初七,初八,初九,初十,十一,十二,十三,十四,十五,十六,十七,十八,十九,二十,廿一,廿二,廿三,廿四,廿五,廿六,廿七,廿八,廿九,三十'.split(',');
@@ -74,16 +73,22 @@ function getBirthdayList(children, count) {
     });
     return birthdayList.slice(0, count);
 }
+var time = 0;
+var list;
 function showNearBirthday(data) {
-    console.log("=======", data);
-    $('#modal-box-content').html(`<div class="modal-container">
-    <div class="modal-item">方运江：今天</div>
-    <div class="modal-item">方运勇：6天</div>
-    <div class="modal-item">方运江：今天</div>
-    <div class="modal-item">方运勇：6天</div>
-    <div class="modal-item">方运江：今天</div>
-    </div>`);
-    $('.modal-box-mask, .modal-box-modal').css('display', 'block');
+    if (!time) {
+        time = 1;
+        setTimeout(function(){ time =0 }, 1000);
+    } else {
+        if (!list) {
+            list = getBirthdayList(data, 5);
+        }
+
+        $('#modal-box-content').html(`<div class="modal-container">
+        ${list.map(o=>`<div class="modal-item">${o.name}：${o.day || '今'}天</div>`).join('')}
+        </div>`);
+        $('.modal-box-mask, .modal-box-modal').css('display', 'block');
+    }
 }
 
 
