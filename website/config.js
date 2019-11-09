@@ -23,7 +23,8 @@ const config = {
     sideNavCollapsible: true, // 侧边栏是否可以折叠
     homePage: {
         name: '方氏家族',
-        path: 'index.md'
+        path: 'index.md',
+        supports: ['tagcloud'], // 云标签的支持
     },
     menus: [
         {
