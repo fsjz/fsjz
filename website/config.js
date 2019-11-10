@@ -24,7 +24,7 @@ const config = {
     homePage: {
         name: '方氏家族',
         path: 'index.md',
-        supports: ['tagcloud'], // 云标签的支持
+        supports: ['tagcloud', 'rotateWord'], // 云标签的支持
     },
     menus: [
         {
