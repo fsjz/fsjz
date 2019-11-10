@@ -1,42 +1,47 @@
-<html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta content="http://localhost:3000"/><meta name="viewport" content="width=device-width"/><title>方氏家族</title><link rel="shortcut icon" href="img/favicon.ico"/><link rel="stylesheet" href="solarized-dark.css"/><link rel="stylesheet" href="css/main.css"/><script type="text/javascript" src="js/jquery-1.4.4.min.js"></script><script type="text/javascript" src="js/underscore-min.js"></script><link rel="stylesheet" href="css/common.css"/><script type="text/javascript" src="js/lunar.js"></script><script type="text/javascript" src="js/common.js"></script></head><body class="sideNavVisible"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/fsjz/"><img class="logo" src="img/logo.png"/><span class="headerTitle">方氏家族</span></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li><a href="9eb50f9088083bebcb7e4cf99e22b9ed.html" target="_self">家族新闻</a></li><li><a href="2b9e9c9bffc7c08c1860f9d25c826fb5.html" target="_self">家族</a></li><li><a href="7844c4f1a270d87f3e0d79219d9a68e4.html" target="_self">家谱</a></li><li><a href="2906b1e06e9d28747aaa61232b3507d9.html" target="_self">祭祖</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><article style="overflow:visible;"><div><span><style>
-    body {
-        background: #222826;
-    }
-    p {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-    #container {
-        width: 100%;
-        text-align: center;
-    }
-    #container p {
-        font-family: 'Audiowide';
-        text-align: center;
-        font-size: 3em;
-    }
-    .mainContainer {
-        padding: 0;
-    }
+<html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta content="http://localhost:3000"/><meta name="viewport" content="width=device-width"/><title>方氏家族</title><link rel="shortcut icon" href="img/favicon.ico"/><link rel="stylesheet" href="solarized-dark.css"/><link rel="stylesheet" href="css/main.css"/><script type="text/javascript" src="js/jquery-1.4.4.min.js"></script><script type="text/javascript" src="js/underscore-min.js"></script><link rel="stylesheet" href="clockRotate/index.css"/><script type="text/javascript" src="tagcloud/tagcanvas.js"></script><script type="text/javascript" src="clockRotate/index.js"></script><link rel="stylesheet" href="css/common.css"/><script type="text/javascript" src="js/lunar.js"></script><script type="text/javascript" src="js/common.js"></script></head><body class="sideNavVisible"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/fsjz/"><img class="logo" src="img/logo.png"/><span class="headerTitle">方氏家族</span></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li><a href="9eb50f9088083bebcb7e4cf99e22b9ed.html" target="_self">家族新闻</a></li><li><a href="2b9e9c9bffc7c08c1860f9d25c826fb5.html" target="_self">家族</a></li><li><a href="7844c4f1a270d87f3e0d79219d9a68e4.html" target="_self">家谱</a></li><li><a href="2906b1e06e9d28747aaa61232b3507d9.html" target="_self">祭祖</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><article style="overflow:visible;"><div><span><style>
+.tagcloud-container {
+    position: relative;
+}
+.tagcloud-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tagcloud1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.clockRotate1 {
+    overflow: hidden;
+}
 </style>
-<script>
-    function addStyle(style, i, c1, c2) {
-        style.appendChild(document.createTextNode('.l'+i+' { color:'+c2+';animation: light'+i+' 1.5s ease infinite alternate;}'));
-        style.appendChild(document.createTextNode('@keyframes light'+i+' { from { text-shadow: 0 0 10px '+c1+', 0 0 20px '+c1+', 0 0 30px '+c1+', 0 0 40px '+c2+', 0 0 70px '+c2+', 0 0 80px '+c2+', 0 0 100px '+c2+', 0 0 150px '+c2+'; } to { text-shadow: 0 0 10px '+c1+', 0 0 20px '+c1+', 0 0 30px '+c1+', 0 0 40px '+c2+', 0 0 70px '+c2+', 0 0 80px '+c2+', 0 0 100px '+c2+', 0 0 150px '+c2+'; }}'));
-    }
+<div class="tagcloud-container1">
+<div class="tagcloud-container">
 
-    var style = document.createElement('style');
-    var colors = ['#B22222', '#00a67c', '#FF0000', '#458B00', '#FF8C00'];
-    for (var i=0; i<5; i++) {
-        addStyle(style, i+1, '#fff', colors[i]);
-    }
-    document.getElementsByTagName("head")[0].appendChild(style);
-</script>
-<div id="container">
-    <p class="l1">齐易家增福</p>
-    <p class="l2">续谱定吉昌</p>
-    <p class="l3">太运永红光</p>
-    <p class="l4">远传忠孝悌</p>
-    <p class="l5">荣华富贵长</p>
-</div>
+        <div id="mdoc_clockRotate_1" class="clockRotate1 clockRotate">
+        </div>
+        <script>$(document).ready(function(){
+            showClockRotate('#mdoc_clockRotate_1', '齐易家增福续谱定吉昌太运永红光远传忠孝悌荣华富贵长', {"radius":180,"fontSize":30,"className":"clockRotate1"});
+        })</script>
+        
+        <canvas id="mdoc_tagcloud_1" width="320" height="320" class="tagcloud1">
+            <a href="javascript:void(0);">方拔齐</a><a href="javascript:void(0);">方定基</a><a href="javascript:void(0);">方定乾</a><a href="javascript:void(0);">方定古</a><a href="javascript:void(0);">方吉才</a><a href="javascript:void(0);">方昌明</a><a href="javascript:void(0);">方太中</a><a href="javascript:void(0);">方运琼</a><a href="javascript:void(0);">方运辉</a><a href="javascript:void(0);">方婷</a><a href="javascript:void(0);">方丹</a><a href="javascript:void(0);">方华</a><a href="javascript:void(0);">方运艳</a><a href="javascript:void(0);">方运素</a><a href="javascript:void(0);">方运江</a><a href="javascript:void(0);">方远航</a><a href="javascript:void(0);">方远程</a><a href="javascript:void(0);">方太成</a><a href="javascript:void(0);">方运梅</a><a href="javascript:void(0);">方运红</a><a href="javascript:void(0);">方鹏</a><a href="javascript:void(0);">方雪</a><a href="javascript:void(0);">方黔粤</a><a href="javascript:void(0);">方运先</a><a href="javascript:void(0);">方运美</a><a href="javascript:void(0);">方运敏</a><a href="javascript:void(0);">方太国</a><a href="javascript:void(0);">方运琴</a><a href="javascript:void(0);">方运慧</a><a href="javascript:void(0);">方运飞</a><a href="javascript:void(0);">方欣羽</a><a href="javascript:void(0);">方运勇</a><a href="javascript:void(0);">方浩轩</a><a href="javascript:void(0);">方浩宇</a><a href="javascript:void(0);">方太加</a><a href="javascript:void(0);">方运丽</a><a href="javascript:void(0);">方运进</a><a href="javascript:void(0);">方紫涵</a><a href="javascript:void(0);">方辰逸</a><a href="javascript:void(0);">方运德</a><a href="javascript:void(0);">方梓鸥</a><a href="javascript:void(0);">方梓腾</a><a href="javascript:void(0);">方太先</a><a href="javascript:void(0);">方太强</a><a href="javascript:void(0);">方运波</a><a href="javascript:void(0);">方妙兮</a><a href="javascript:void(0);">方艺玲</a><a href="javascript:void(0);">方运菊</a><a href="javascript:void(0);">方太蓉</a><a href="javascript:void(0);">方太学</a><a href="javascript:void(0);">方太福</a><a href="javascript:void(0);">方运培</a><a href="javascript:void(0);">方运松</a><a href="javascript:void(0);">方昌英</a><a href="javascript:void(0);">方昌伦</a><a href="javascript:void(0);">方太军</a><a href="javascript:void(0);">方运模</a><a href="javascript:void(0);">方娟娟</a><a href="javascript:void(0);">方永圣</a><a href="javascript:void(0);">方燕</a><a href="javascript:void(0);">方太华</a><a href="javascript:void(0);">方运杰</a><a href="javascript:void(0);">方林</a><a href="javascript:void(0);">老大</a><a href="javascript:void(0);">方太文</a><a href="javascript:void(0);">方运忠</a><a href="javascript:void(0);">方运久</a><a href="javascript:void(0);">方运刚</a>
+        </canvas>
+        <script>$(document).ready(function(){
+            TagCanvas.Start('mdoc_tagcloud_1', 'mdoc_tagcloud_1', {
+        		textColour: '#222',
+        		outlineColour: '#fff',
+        		reverse: true,
+        		hideTags: false,
+        		noMouse: true,
+        		weight: true,
+        		wheelZoom: false,
+        		depth: 0.8,
+        		decel:0.95,
+        		maxSpeed: 0.05,
+        		initial: [-0.2, 0]
+        	});
+        })</script>
+        <div>
+<div>
 </span></div></article></div><div class="docs-prevnext"></div></div></div></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2019 大面坡方氏家族.</section></footer></div></body></html>
