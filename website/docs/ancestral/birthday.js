@@ -66,7 +66,7 @@
                             birthday: '1976八月初一',
                             wife: {
                                 name: '熊国碧',
-                                birthday: '1974十月十八',
+                                birthday: '1974十月初二',
                                 girl: true,
                             },
                             children: [{
