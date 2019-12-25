@@ -46,7 +46,7 @@
                                 girl: true,
                                 birthday: '',
                                 husband: {
-                                    name: '邵新梦',
+                                    name: '邵兴梦',
                                     birthday: '',
                                 },
                                 children: [{
