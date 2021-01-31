@@ -26,7 +26,11 @@ function publish() {
         git plpage
     fi
     git lg -5
-    v=`git lg -1|sed 's/.*发布//'|sed 's/版本.*//'|sed 's/\.//g'`
+    if [ -z "$1" ];then
+        v=`git lg -1|sed 's/.*发布//'|sed 's/版本.*//'|sed 's/\.//g'`
+    else
+        v=`echo $1|sed 's/.*发布//'|sed 's/版本.*//'|sed 's/\.//g'`
+    fi
     t=`echo $v|grep '^\d\{3\}$'`
     if [ "$t" = "" ];then
         v="99"
@@ -47,4 +51,4 @@ function publish() {
 }
 
 check
-publish
+publish "$1"
