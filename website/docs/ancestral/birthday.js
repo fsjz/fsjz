@@ -547,6 +547,9 @@
                                 name: '方林长女',
                                 birthday: '',
                                 girl: true,
+                            }, {
+                                name: '方雨阳',
+                                birthday: '2020年七月初九',
                             }],
                         }],
                     }, {

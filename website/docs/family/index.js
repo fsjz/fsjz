@@ -185,6 +185,8 @@
                             children: [{
                                 name: '老大',
                                 girl: true,
+                            }, {
+                                name: '方雨阳',
                             }],
                         }],
                     }, {
