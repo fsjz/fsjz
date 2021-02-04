@@ -133,6 +133,7 @@ const config = {
                         { name: '方梓腾', path: 'family/yong/fang_zi_teng.md'},
                         { name: '方辰逸', path: 'family/yong/fang_chen_yi.md'},
                         { name: '方远程', path: 'family/yong/fang_yuan_cheng.md'},
+                        { name: '方雨阳', path: 'family/yong/fang_yu_yang.md'},
                     ]
                 },
             ]
