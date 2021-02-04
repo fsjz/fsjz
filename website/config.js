@@ -151,7 +151,8 @@ const config = {
                 {
                     name: '斗钱记录',
                     pages: [
-                        { name: '2019年', path: 'sacrifice/records/2019.md'}
+                        { name: '2019年', path: 'sacrifice/records/2019.md', scripts: ['js/record.js'] },
+                        { name: '2020年', path: 'sacrifice/records/2020.md', scripts: ['js/record.js'] },
                     ]
                 },
             ]
