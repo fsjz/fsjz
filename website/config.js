@@ -134,6 +134,8 @@ const config = {
                         { name: '方辰逸', path: 'family/yong/fang_chen_yi.md'},
                         { name: '方远程', path: 'family/yong/fang_yuan_cheng.md'},
                         { name: '方雨阳', path: 'family/yong/fang_yu_yang.md'},
+                        { name: '方柏然', path: 'family/yong/fang_bo_ran.md'},
+                        { name: '方艺博', path: 'family/yong/fang_yi_bo.md'},
                     ]
                 },
             ]

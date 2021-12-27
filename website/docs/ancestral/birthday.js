@@ -408,6 +408,9 @@
                                 name: '方艺玲',
                                 birthday: '2019年04月24日',
                                 girl: true,
+                            }, {
+                                name: '方柏然',
+                                birthday: '2021年04月30日',
                             }],
                         }, {
                             name: '方运菊',
@@ -571,6 +574,10 @@
                                 birthday: '',
                                 girl: true,
                             },
+                            children: [{
+                                name: '方艺博',
+                                birthday: '2021年06月18日',
+                            }],
                         }, {
                             name: '方运刚',
                             birthday: '1999十月初二',
