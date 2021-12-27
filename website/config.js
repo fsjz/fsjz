@@ -156,6 +156,7 @@ const config = {
                     pages: [
                         { name: '2019年', path: 'sacrifice/records/2019.md', scripts: ['js/record.js'] },
                         { name: '2020年', path: 'sacrifice/records/2020.md', scripts: ['js/record.js'] },
+                        { name: '2021年', path: 'sacrifice/records/2021.md', scripts: ['js/record.js'] },
                     ]
                 },
             ]
