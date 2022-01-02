@@ -32,12 +32,12 @@
                             name: '方运江',
                             children: [{
                                 name: '方永旺',
-                            }
+                            }]
                         }, {
                             name: '方运福',
                             children: [{
                                 name: '方永恒',
-                            }
+                            }]
                         }, {
                             name: '方运琪',
                         }, {

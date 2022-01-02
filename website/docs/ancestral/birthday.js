@@ -73,7 +73,7 @@
                             children: [{
                                 name: '方永旺',
                                 birthday: '2010四月廿六',
-                            }
+                            }]
                         }, {
                             name: '方运福',
                             birthday: '1987七月初三',
@@ -84,7 +84,7 @@
                             children: [{
                                 name: '方永恒',
                                 birthday: '2010二月十七',
-                            }
+                            }]
                         }, {
                             name: '方运琪',
                             birthday: '1997四月十九',
@@ -98,12 +98,27 @@
         }, {
             name: '方定古',
             pass: true,
+            wife: {
+                name: '吴氏',
+                girl: true,
+                pass: true,
+            },
             children: [{
                 name: '方吉才',
                 pass: true,
+                wife: {
+                    name: '西坪李氏',
+                    girl: true,
+                    pass: true,
+                },
                 children: [{
                     name: '方昌明',
                     pass: true,
+                    wife: {
+                        name: '郭大贤',
+                        girl: true,
+                        pass: true,
+                    },
                     children: [{
                         name: '方太中',
                         birthday: '1950二月廿九',
@@ -582,6 +597,11 @@
                     name: '方昌伦',
                     birthday: '',
                     pass: true,
+                    wife: {
+                        name: '刘应珍',
+                        girl: true,
+                        pass: true,
+                    },
                     children: [{
                         name: '方太军',
                         birthday: '1959六月廿八',
