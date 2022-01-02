@@ -15,7 +15,86 @@
         }, {
             name: '方定乾',
             pass: true,
-            children: [{name: '待补充...'}],
+            wife: {
+                name: '吴氏',
+                girl: true,
+                pass: true,
+            },
+            children: [{
+                name: '方吉发',
+                pass: true,
+                wife: {
+                    name: '杨忠碧',
+                    girl: true,
+                    pass: true,
+                },
+                children: [{
+                    name: '方昌贵',
+                    birthday: '1939四月廿十',
+                    wife: {
+                        name: '李明英',
+                        birthday: '1941冬月廿九',
+                        girl: true,
+                        pass: true,
+                    },
+                    children: [{
+                        name: '方太群',
+                        girl: true,
+                        husband: {
+                            name: '刘宝成',
+                        },
+                    }, {
+                        name: '方太琴',
+                        girl: true,
+                        husband: {
+                            name: '王国华',
+                        },
+                    }, {
+                        name: '方太芸',
+                        girl: true,
+                        pass: true,
+                        husband: {
+                            name: '陆建平',
+                        },
+                    }, {
+                        name: '方太元',
+                        birthday: '1964三月初八',
+                        wife: {
+                            name: '谢启兰',
+                            girl: true,
+                        },
+                        children: [{
+                            name: '方运江',
+                            birthday: '1985七月廿八',
+                            wife: {
+                                name: '曹永虹',
+                                girl: true,
+                            },
+                            children: [{
+                                name: '方永旺',
+                                birthday: '2010四月廿六',
+                            }
+                        }, {
+                            name: '方运福',
+                            birthday: '1987七月初三',
+                            wife: {
+                                name: '李属丽',
+                                girl: true,
+                            },
+                            children: [{
+                                name: '方永恒',
+                                birthday: '2010二月十七',
+                            }
+                        }, {
+                            name: '方运琪',
+                            birthday: '1997四月十九',
+                        }, {
+                            name: '方运莲',
+                            birthday: '1993七月廿十',
+                        }],
+                    }],
+                }],
+            }],
         }, {
             name: '方定古',
             pass: true,

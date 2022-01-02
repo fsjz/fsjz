@@ -15,7 +15,37 @@
         }, {
             name: '方定乾',
             pass: true,
-            children: [{name: '待补充...'}],
+            children: [{
+                name: '方吉发',
+                pass: true,
+                children: [{
+                    name: '方昌贵',
+                    children: [{
+                        name: '方太群',
+                    }, {
+                        name: '方太琴',
+                    }, {
+                        name: '方太芸',
+                    }, {
+                        name: '方太元',
+                        children: [{
+                            name: '方运江',
+                            children: [{
+                                name: '方永旺',
+                            }
+                        }, {
+                            name: '方运福',
+                            children: [{
+                                name: '方永恒',
+                            }
+                        }, {
+                            name: '方运琪',
+                        }, {
+                            name: '方运莲',
+                        }],
+                    }],
+                }],
+            }],
         }, {
             name: '方定古',
             pass: true,
